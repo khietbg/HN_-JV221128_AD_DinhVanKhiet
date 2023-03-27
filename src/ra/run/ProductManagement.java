@@ -37,18 +37,9 @@ public class ProductManagement {
                     break;
                 case 5:
                     System.exit(0);
-                case 6:
-                    show();
-                    break;
                 default:
                     break;
             }
-        }
-    }
-
-    private static void show() {
-        for (Product pro:listProduct) {
-            pro.displayData();
         }
     }
 
